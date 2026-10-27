@@ -1,0 +1,22 @@
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/uploads/attachments/*
+!backend/uploads/attachments/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Coverage
+coverage/
